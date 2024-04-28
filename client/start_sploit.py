@@ -94,7 +94,7 @@ def parse_args():
                         help="Sploit executable (should take a victim's host as the first argument)")
     parser.add_argument('--server-url', metavar='URL', default='http://localhost:8893',
                         help='Server URL')
-    parser.add_argument('--server-pass', metavar='PASS', default='893',
+    parser.add_argument('--server-pass', metavar='PASS', default='058232',
                         help='Server password')
     parser.add_argument('--interpreter', metavar='COMMAND',
                         help='Explicitly specify sploit interpreter (use on Windows, which doesn\'t '

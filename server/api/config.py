@@ -1,7 +1,7 @@
 import os
 
 
-DB_HOST = 'postgres'
+DB_HOST = 'farm-postgres'
 DB_DATABASE = 'culhwch'
 DB_USER = 'culhwch'
 DB_PASSWORD = 'culhwch'
