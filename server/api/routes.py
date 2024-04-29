@@ -30,11 +30,12 @@ ROUTES = (
 
     web.route('get', '/api/settings/protocols', settings.get_protocols),
     web.route('get', '/api/settings/validators', settings.get_validators),
-    web.route('get', '/api/settings/protocol/params', settings.get_protocols_params),
+    web.route('get', '/api/settings/protocol/params',
+              settings.get_protocols_params),
 
     web.route('get', '/api/sploits', sploits.get_sploits),
     web.route('post', '/api/sploits', sploits.init_sploit),
     web.route('delete', '/api/sploits', sploits.delete_sploits),
-    
+
     web.route('get', '/api/client', client.get_client),
 )

@@ -8,7 +8,7 @@ RESPONSES = {
     FlagStatus.QUEUED: ['timeout', 'game not started', 'try again later', 'game over', 'is not up'],
     FlagStatus.ACCEPTED: ['accepted', 'congrat'],
     FlagStatus.REJECTED: ['bad', 'wrong', 'expired', 'unknown', 'your own',
-                          'too old', 'not in database', 'already submitted', 'invalid flag', 'no such flag'],
+                          'too old', 'not in database', 'already submitted', 'invalid flag', 'no such flag', 'invalid or too old'],
 }
 
 

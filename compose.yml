@@ -32,7 +32,7 @@ services:
             farm-postgres:
                 condition: service_healthy
 
-    farm-postgres:
+    farm-postgres:∂
         container_name: farm-postgres
         image: postgres:15.1-alpine
         restart: unless-stopped
