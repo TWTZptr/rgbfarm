@@ -7,7 +7,7 @@ COPY front /app
 WORKDIR /app
 
 FROM base AS build
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --force
 RUN pnpm run build
 
 FROM nginx:1.24.0-alpine
