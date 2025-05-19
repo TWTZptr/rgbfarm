@@ -14,7 +14,7 @@ restart:
 	docker compose restart
 
 clean:
-	rm -rf /culhwch/farm
+	rm -rf ./pg_vol
 
 reset: down clean
 
