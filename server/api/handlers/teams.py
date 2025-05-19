@@ -31,7 +31,7 @@ async def delete_teams(request: web.Request):
 
     sq = '''delete
             from t_teams
-            where team_id >= 0 
+            where team_id >= 0
                 and (($1::int is not null and team_id = $1) or $1 is null);'''
 
     pool = request.app['pool']

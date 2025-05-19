@@ -56,4 +56,3 @@ Exploits are written to attack enemy teams, steal flags, and submit them to the 
 
 To launch an exploit, use [start_sploit.py](./client/start_sploit.py), for example:
 > python3 start_sploit.py sploit.py
-

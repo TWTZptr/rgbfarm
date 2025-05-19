@@ -110,12 +110,12 @@ async def get_protocols(request: web.Request):
 async def get_validators(request: web.Request):
     pool = request.app['pool']
 
-    sq = '''select 
-                v.validator_id, 
+    sq = '''select
+                v.validator_id,
                 v.validator_name,
                 v.validator_is_active,
                 coalesce(
-                    jsonb_agg(to_jsonb(vp)) filter(where vp.validator_param_name is not null), 
+                    jsonb_agg(to_jsonb(vp)) filter(where vp.validator_param_name is not null),
                     '{}'::jsonb
                 ) as validator_params
             from t_validators v

@@ -40,8 +40,8 @@ def get_queued_flags() -> list[Flag]:
 
 
 def get_protocol_name(settings: Settings) -> str | None:
-    sq = '''select protocol_name 
-            from t_protocols tp 
+    sq = '''select protocol_name
+            from t_protocols tp
             where protocol_id = %s;'''
 
     cur = conn_db.cursor()
@@ -100,7 +100,7 @@ def get_fair_share(groups, limit):
 
     random.shuffle(result)
     return result
-    
+
 
 def submit_flags(flags, protocol_name, protocol_params) -> list[FlagSubmit]:
     try:

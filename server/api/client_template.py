@@ -29,14 +29,14 @@ os_windows = (os.name == 'nt')
 
 HEADER = '''
 
-  ,ad8888ba,                88  88                                           88           
- d8"'    `"8b               88  88                                           88           
-d8'                         88  88                                           88           
-88             88       88  88  88,dPPYba,   8b      db      d8   ,adPPYba,  88,dPPYba,   
-88             88       88  88  88P'    "8a  `8b    d88b    d8'  a8"     ""  88P'    "8a  
-Y8,            88       88  88  88       88   `8b  d8'`8b  d8'   8b          88       88  
- Y8a.    .a8P  "8a,   ,a88  88  88       88    `8bd8'  `8bd8'    "8a,   ,aa  88       88  
-  `"Y8888Y"'    `"YbbdP'Y8  88  88       88      YP      YP       `"Ybbd8"'  88       88  
+  ,ad8888ba,                88  88                                           88
+ d8"'    `"8b               88  88                                           88
+d8'                         88  88                                           88
+88             88       88  88  88,dPPYba,   8b      db      d8   ,adPPYba,  88,dPPYba,
+88             88       88  88  88P'    "8a  `8b    d88b    d8'  a8"     ""  88P'    "8a
+Y8,            88       88  88  88       88   `8b  d8'`8b  d8'   8b          88       88
+ Y8a.    .a8P  "8a,   ,a88  88  88       88    `8bd8'  `8bd8'    "8a,   ,aa  88       88
+  `"Y8888Y"'    `"YbbdP'Y8  88  88       88      YP      YP       `"Ybbd8"'  88       88
 
 by @arkiix of 89cr3w
 '''[1:]
